@@ -123,7 +123,7 @@ section .title{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/333\ \(1\).png") no-repeat center;
+    background: url("images/homebackg.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;

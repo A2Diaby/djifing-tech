@@ -57,7 +57,8 @@ $(document).ready(function(){
               }
             }
           });
-          
+          window.addEventListener("load", animateOnLoad);
+window.addEventListener("beforeunload", animateOnLoad);
 
         const form = document.querySelector("form");
 

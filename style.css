@@ -12,13 +12,13 @@ html{
 }
 .left, .myedu,  .skills, .contact {
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateY(100%);
     transition: opacity 1.7s ease-in-out, transform 1.3s ease-in-out;
     }
 
  .right, .services,  .works {
         opacity: 0;
-        transform: translateY(-100%);
+        transform: translateY(100%);
         transition: opacity 1.7s ease-in-out, transform 1.3s ease-in-out;
  }
 

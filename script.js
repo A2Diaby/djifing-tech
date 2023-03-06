@@ -39,7 +39,7 @@ $(document).ready(function(){
         let slideInElements = document.querySelectorAll('.left, .right, .myedu, .services, .skills, .works, .contact');
         for (let slideIn of slideInElements) {
         if (top > slideIn.offsetTop - window.innerHeight + 200) {
-        slideIn.style.transform = "translateX(0)";
+        slideIn.style.transform = "translateY(0)";
         slideIn.style.opacity = 1;
         }
         }
@@ -52,7 +52,7 @@ $(document).ready(function(){
             );
             for (let slideIn of slideInElements) {
               if (top > slideIn.offsetTop - window.innerHeight + 200) {
-                slideIn.style.transform = "translateX(0)";
+                slideIn.style.transform = "translateY(0)";
                 slideIn.style.opacity = 1;
               }
             }

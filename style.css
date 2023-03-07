@@ -413,13 +413,14 @@ background-size: 6px 6px;
     color: #fff;
   }
   
-  .skills .skill-content .card .text {
-    font-size: 25px;
+ .skills .skill-content .card .text {
+    font-size: 30px;
     font-weight: 500;
     margin: 6px 0 3px 0;
     color: black;
-    border: black;
-  }
+    border-bottom: 4px solid black;
+    font-palette: dark;
+}
   .skills p{
     color: black;
     text-align: center;
